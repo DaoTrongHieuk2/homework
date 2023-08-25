@@ -1,0 +1,4 @@
+E:\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfoInputs.cache
+E:\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.AssemblyInfo.cs
+E:\PTPMQL\NewApp\obj\Debug\net7.0\NewApp.csproj.CoreCompileInputs.cache
