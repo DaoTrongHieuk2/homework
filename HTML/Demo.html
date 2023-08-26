@@ -1,107 +1,40 @@
-Using The class Attribute
+Using The id Attribute
 <!DOCTYPE html>
 <html>
 <head>
 <style>
-.city {
-  background-color: tomato;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-}
-</style>
-</head>
-<body>
-
-<div class="city">
-<h2>London</h2>
-<p>Dao Trong Hieu - 2021050258.</p>
-</div> 
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.note {
-  font-size: 120%;
-  color: red;
-}
-</style>
-</head>
-<body>
-
-<h1>My <span class="note">Dao Trong Hieu 2021050258</span> Heading</h1>
-<p>This is some <span class="note">important</span> text.</p>
-
-</body>
-</html>
-
-The Syntax For Class
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.city {
-  background-color: tomato;
-  color: white;
-  padding: 10px;
-}
-</style>
-</head>
-<body>
-
-<h2>The class Attribute</h2>
-<p>Use CSS to style elements with the class name "city":</p>
-
-<h2 class="city">Dao Trong Hieu 2021050258</h2>
-<p>London is the capital of England.</p>
-
-<h2 class="city">Paris</h2>
-<p>Paris is the capital of France.</p>
-
-<h2 class="city">Tokyo</h2>
-<p>Tokyo is the capital of Japan.</p>
-
-</body>
-</html>
-
-Multiple Classes
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.city {
-  background-color: tomato;
-  color: white;
-  padding: 10px;
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
 } 
+</style>
+</head>
+<body>
 
-.main {
+<h2>The id Attribute</h2>
+<p>Use CSS to style an element with the id "myHeader":</p>
+
+<h1 id="myHeader">Dao Trong Hieu 2021050258</h1>
+
+</body>
+</html>
+
+Difference Between Class and ID
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Style the element with the id "myHeader" */
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
   text-align: center;
 }
-</style>
-</head>
-<body>
 
-<h2>Multiple Classes</h2>
-<p>Here, all three h2 elements belongs to the "city" class. In addition, London also belongs to the "main" class, which center-aligns the text.</p>
-
-<h2 class="city main">Dao Trong Hieu 2021050258</h2>
-<h2 class="city">Paris</h2>
-<h2 class="city">Tokyo</h2>
-
-</body>
-</html>
-
-Different Elements Can Share Same Class
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+/* Style all elements with the class name "city" */
 .city {
   background-color: tomato;
   color: white;
@@ -111,26 +44,11 @@ Different Elements Can Share Same Class
 </head>
 <body>
 
-<h2>Different Elements Can Share Same Class</h2>
 
-<p>Even if the two elements do not have the same tag name, they can both point to the same class, and get the same CSS styling:</p>
+<!-- An element with a unique id -->
+<h1 id="myHeader">Dao Trong Hieu 2021050258</h1>
 
-<h2 class="city">Dao Trong Hieu 2021050258</h2>
-<p class="city">Paris is the capital of France.</p>
-
-</body>
-</html>
-
-Use of The class Attribute in JavaScript
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Dao Trong Hieu 2021050258</h2>
-<p>Click the button to hide all elements with class name "city":</p>
-
-<button onclick="myFunction()">Hide elements</button>
-
+<!-- Multiple elements with same class -->
 <h2 class="city">London</h2>
 <p>London is the capital of England.</p>
 
@@ -140,15 +58,23 @@ Use of The class Attribute in JavaScript
 <h2 class="city">Tokyo</h2>
 <p>Tokyo is the capital of Japan.</p>
 
+</body>
+</html>
+
+
+Using The id Attribute in JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="myHeader">Dao Trong Hieu 2021050258!</h1>
+<button onclick="displayResult()">Change text</button>
+
 <script>
-function myFunction() {
-  var x = document.getElementsByClassName("city");
-  for (var i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
 }
 </script>
 
 </body>
 </html>
-
