@@ -1,51 +1,154 @@
-Block-level Elements
+Using The class Attribute
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
 <body>
 
-<p style="border: 1px solid black">Hello World</p>
-<div style="border: 1px solid black">Hello World</div>
-
-<p>Dao Trong Hieu 2021050258.</p>
-
-</body>
-</html>
-
-Inline Elements
-<!DOCTYPE html>
-<html>
-<body>
-
-<p>This is an inline span <span style="border: 1px solid black">Dao Trong Hieu - 2021050258</span> element inside a paragraph.</p>
-
-<p>The SPAN element is an inline element, and will not start on a new line and only takes up as much width as necessary.</p>
-
-</body>
-</html>
-
-The <div> Element
-  <!DOCTYPE html>
-<html>
-<body>
-
-<div style="background-color:black;color:white;padding:20px;">
-  <h2>London</h2>
-  <p>Dao Trong Hieu 2021050258</p>
+<div class="city">
+<h2>London</h2>
+<p>Dao Trong Hieu - 2021050258.</p>
 </div> 
 
 </body>
 </html>
 
-The <span> Element
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+<head>
+<style>
+.note {
+  font-size: 120%;
+  color: red;
+}
+</style>
+</head>
 <body>
 
-<h1>The span element</h1>
-
-<p>My mother has <span style="color:blue;font-weight:bold;">Dao Trong Hieu 2021050258</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
+<h1>My <span class="note">Dao Trong Hieu 2021050258</span> Heading</h1>
+<p>This is some <span class="note">important</span> text.</p>
 
 </body>
 </html>
 
+The Syntax For Class
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>The class Attribute</h2>
+<p>Use CSS to style elements with the class name "city":</p>
+
+<h2 class="city">Dao Trong Hieu 2021050258</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+</body>
+</html>
+
+Multiple Classes
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
+
+.main {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Multiple Classes</h2>
+<p>Here, all three h2 elements belongs to the "city" class. In addition, London also belongs to the "main" class, which center-aligns the text.</p>
+
+<h2 class="city main">Dao Trong Hieu 2021050258</h2>
+<h2 class="city">Paris</h2>
+<h2 class="city">Tokyo</h2>
+
+</body>
+</html>
+
+Different Elements Can Share Same Class
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
+</style>
+</head>
+<body>
+
+<h2>Different Elements Can Share Same Class</h2>
+
+<p>Even if the two elements do not have the same tag name, they can both point to the same class, and get the same CSS styling:</p>
+
+<h2 class="city">Dao Trong Hieu 2021050258</h2>
+<p class="city">Paris is the capital of France.</p>
+
+</body>
+</html>
+
+Use of The class Attribute in JavaScript
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Dao Trong Hieu 2021050258</h2>
+<p>Click the button to hide all elements with class name "city":</p>
+
+<button onclick="myFunction()">Hide elements</button>
+
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
 
