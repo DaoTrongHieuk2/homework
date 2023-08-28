@@ -1,0 +1,14 @@
+E:\PTPMQL\C#\BTtoantusosanh\bin\Debug\net7.0\BTtoantusosanh.exe
+E:\PTPMQL\C#\BTtoantusosanh\bin\Debug\net7.0\BTtoantusosanh.deps.json
+E:\PTPMQL\C#\BTtoantusosanh\bin\Debug\net7.0\BTtoantusosanh.runtimeconfig.json
+E:\PTPMQL\C#\BTtoantusosanh\bin\Debug\net7.0\BTtoantusosanh.dll
+E:\PTPMQL\C#\BTtoantusosanh\bin\Debug\net7.0\BTtoantusosanh.pdb
+E:\PTPMQL\C#\BTtoantusosanh\obj\Debug\net7.0\BTtoantusosanh.GeneratedMSBuildEditorConfig.editorconfig
+E:\PTPMQL\C#\BTtoantusosanh\obj\Debug\net7.0\BTtoantusosanh.AssemblyInfoInputs.cache
+E:\PTPMQL\C#\BTtoantusosanh\obj\Debug\net7.0\BTtoantusosanh.AssemblyInfo.cs
+E:\PTPMQL\C#\BTtoantusosanh\obj\Debug\net7.0\BTtoantusosanh.csproj.CoreCompileInputs.cache
+E:\PTPMQL\C#\BTtoantusosanh\obj\Debug\net7.0\BTtoantusosanh.dll
+E:\PTPMQL\C#\BTtoantusosanh\obj\Debug\net7.0\refint\BTtoantusosanh.dll
+E:\PTPMQL\C#\BTtoantusosanh\obj\Debug\net7.0\BTtoantusosanh.pdb
+E:\PTPMQL\C#\BTtoantusosanh\obj\Debug\net7.0\BTtoantusosanh.genruntimeconfig.cache
+E:\PTPMQL\C#\BTtoantusosanh\obj\Debug\net7.0\ref\BTtoantusosanh.dll

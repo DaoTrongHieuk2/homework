@@ -1,0 +1,14 @@
+E:\PTPMQL\C#\ClassStudent\obj\Debug\net7.0\ClassStudent.GeneratedMSBuildEditorConfig.editorconfig
+E:\PTPMQL\C#\ClassStudent\obj\Debug\net7.0\ClassStudent.AssemblyInfoInputs.cache
+E:\PTPMQL\C#\ClassStudent\obj\Debug\net7.0\ClassStudent.AssemblyInfo.cs
+E:\PTPMQL\C#\ClassStudent\obj\Debug\net7.0\ClassStudent.csproj.CoreCompileInputs.cache
+E:\PTPMQL\C#\ClassStudent\bin\Debug\net7.0\ClassStudent.exe
+E:\PTPMQL\C#\ClassStudent\bin\Debug\net7.0\ClassStudent.deps.json
+E:\PTPMQL\C#\ClassStudent\bin\Debug\net7.0\ClassStudent.runtimeconfig.json
+E:\PTPMQL\C#\ClassStudent\bin\Debug\net7.0\ClassStudent.dll
+E:\PTPMQL\C#\ClassStudent\bin\Debug\net7.0\ClassStudent.pdb
+E:\PTPMQL\C#\ClassStudent\obj\Debug\net7.0\ClassStudent.dll
+E:\PTPMQL\C#\ClassStudent\obj\Debug\net7.0\refint\ClassStudent.dll
+E:\PTPMQL\C#\ClassStudent\obj\Debug\net7.0\ClassStudent.pdb
+E:\PTPMQL\C#\ClassStudent\obj\Debug\net7.0\ClassStudent.genruntimeconfig.cache
+E:\PTPMQL\C#\ClassStudent\obj\Debug\net7.0\ref\ClassStudent.dll

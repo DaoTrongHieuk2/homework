@@ -1,0 +1,14 @@
+E:\PTPMQL\C#\ClassFruit\obj\Debug\net7.0\ClassFruit.GeneratedMSBuildEditorConfig.editorconfig
+E:\PTPMQL\C#\ClassFruit\obj\Debug\net7.0\ClassFruit.AssemblyInfoInputs.cache
+E:\PTPMQL\C#\ClassFruit\obj\Debug\net7.0\ClassFruit.AssemblyInfo.cs
+E:\PTPMQL\C#\ClassFruit\obj\Debug\net7.0\ClassFruit.csproj.CoreCompileInputs.cache
+E:\PTPMQL\C#\ClassFruit\bin\Debug\net7.0\ClassFruit.exe
+E:\PTPMQL\C#\ClassFruit\bin\Debug\net7.0\ClassFruit.deps.json
+E:\PTPMQL\C#\ClassFruit\bin\Debug\net7.0\ClassFruit.runtimeconfig.json
+E:\PTPMQL\C#\ClassFruit\bin\Debug\net7.0\ClassFruit.dll
+E:\PTPMQL\C#\ClassFruit\bin\Debug\net7.0\ClassFruit.pdb
+E:\PTPMQL\C#\ClassFruit\obj\Debug\net7.0\ClassFruit.dll
+E:\PTPMQL\C#\ClassFruit\obj\Debug\net7.0\refint\ClassFruit.dll
+E:\PTPMQL\C#\ClassFruit\obj\Debug\net7.0\ClassFruit.pdb
+E:\PTPMQL\C#\ClassFruit\obj\Debug\net7.0\ClassFruit.genruntimeconfig.cache
+E:\PTPMQL\C#\ClassFruit\obj\Debug\net7.0\ref\ClassFruit.dll

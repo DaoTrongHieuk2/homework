@@ -1,0 +1,14 @@
+E:\PTPMQL\C#\BTbienso\bin\Debug\net7.0\BTbienso.exe
+E:\PTPMQL\C#\BTbienso\bin\Debug\net7.0\BTbienso.deps.json
+E:\PTPMQL\C#\BTbienso\bin\Debug\net7.0\BTbienso.runtimeconfig.json
+E:\PTPMQL\C#\BTbienso\bin\Debug\net7.0\BTbienso.dll
+E:\PTPMQL\C#\BTbienso\bin\Debug\net7.0\BTbienso.pdb
+E:\PTPMQL\C#\BTbienso\obj\Debug\net7.0\BTbienso.GeneratedMSBuildEditorConfig.editorconfig
+E:\PTPMQL\C#\BTbienso\obj\Debug\net7.0\BTbienso.AssemblyInfoInputs.cache
+E:\PTPMQL\C#\BTbienso\obj\Debug\net7.0\BTbienso.AssemblyInfo.cs
+E:\PTPMQL\C#\BTbienso\obj\Debug\net7.0\BTbienso.csproj.CoreCompileInputs.cache
+E:\PTPMQL\C#\BTbienso\obj\Debug\net7.0\BTbienso.dll
+E:\PTPMQL\C#\BTbienso\obj\Debug\net7.0\refint\BTbienso.dll
+E:\PTPMQL\C#\BTbienso\obj\Debug\net7.0\BTbienso.pdb
+E:\PTPMQL\C#\BTbienso\obj\Debug\net7.0\BTbienso.genruntimeconfig.cache
+E:\PTPMQL\C#\BTbienso\obj\Debug\net7.0\ref\BTbienso.dll
