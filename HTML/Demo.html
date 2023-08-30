@@ -2,49 +2,35 @@
 <html>
 <body>
 
-<div id="result"></div>
-Dao Trong Hieu 20210502058
-<script>
-// Check browser support
-if (typeof(Storage) !== "undefined") {
-  // Store
-  localStorage.setItem("lastname", "Smith");
-  // Retrieve
-  document.getElementById("result").innerHTML = localStorage.getItem("lastname");
-} else {
-  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
-}
-</script>
+<p>Dao Trong Hieu 2021050258: <output id="result"></output></p>
+<button onclick="startWorker()">Start Worker</button> 
+<button onclick="stopWorker()">Stop Worker</button>
 
-</body>
-</html>
+<p><strong>Note:</strong> Internet Explorer 9 and earlier versions do not support Web Workers.</p>
 
-The sessionStorage Object
-<!DOCTYPE html>
-<html>
-<head>
 <script>
-function clickCounter() {
-  if (typeof(Storage) !== "undefined") {
-    if (sessionStorage.clickcount) {
-      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
-    } else {
-      sessionStorage.clickcount = 1;
+var w;
+
+function startWorker() {
+  if(typeof(Worker) !== "undefined") {
+    if(typeof(w) == "undefined") {
+      w = new Worker("demo_workers.js");
     }
-    document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+    w.onmessage = function(event) {
+      document.getElementById("result").innerHTML = event.data;
+    };
   } else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Workers...";
   }
 }
-</script>
-</head>
-<body>
 
-<p><button onclick="clickCounter()" type="button">Click me!</button></p>
-<div id="result"></div>
-<p>Dao Trong Hieu 2021050258.</p>
-<p>Close the browser tab (or window), and try again, and the counter is reset.</p>
+function stopWorker() { 
+  w.terminate();
+  w = undefined;
+}
+</script>
 
 </body>
 </html>
+
 
