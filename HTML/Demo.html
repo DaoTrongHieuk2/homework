@@ -1,149 +1,105 @@
-The select Element
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>The select Element</h2>
-
-<p>Dao Trong Hieu 2021050258:</p>
-
-<form action="/action_page.php">
-  <label for="cars">Choose a car:</label>
-  <select id="cars" name="cars">
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="fiat">Fiat</option>
-    <option value="audi">Audi</option>
-  </select>
-  <input type="submit">
-</form>
-
-</body>
-</html>
-
-Visible Values:
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Visible Option Values</h2>
-
-<p>Dao Trong Hieu 2021050258.</p>
-
-<form action="/action_page.php">
-  <label for="cars">Choose a car:</label>
-  <select id="cars" name="cars" size="3">
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="fiat">Fiat</option>
-    <option value="audi">Audi</option>
-  </select><br><br>
-  <input type="submit">
-</form>
-
-</body>
-</html>
-
-The textarea Element
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>Textarea</h2>
-<p>Dao Trong Hieu 2021050258.</p>
-
-<form action="/action_page.php">
-  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
-  <br><br>
-  <input type="submit">
-</form>
-
-</body>
-</html>
-
-The button Element
+Input Type Reset
 <!DOCTYPE html>
 <html>
 <body>
 
 <h2>Dao Trong Hieu 2021050258</h2>
 
-<button type="button" onclick="alert('Hello World!')">Click Me!</button>
-
-</body>
-</html>
-
-The <fieldset> and <legend> Elements
-    <!DOCTYPE html>
-<html>
-<body>
-
-<h2>Grouping Form Data with Fieldset</h2>
-
-<p>Dao Trong Hieu 20210205258.</p>
+<p>The <strong>input type="reset"</strong> defines a reset button that resets all form values to their default values:</p>
 
 <form action="/action_page.php">
-  <fieldset>
-    <legend>Personalia:</legend>
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <input type="submit" value="Submit">
-  </fieldset>
-</form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form> 
+
+<p>If you change the input values and then click the "Reset" button, the form-data will be reset to the default values.</p>
 
 </body>
 </html>
 
-The <datalist> Element
-    <!DOCTYPE html>
+Input Type Image
+<!DOCTYPE html>
 <html>
 <body>
 
-<h2>The datalist Element</h2>
-
-<p>Dao Trong Hieu 2021050258.</p>
+<h2>Dao Trong Hieu 2021050258</h2>
 
 <form action="/action_page.php">
-  <input list="browsers" name="browser">
-  <datalist id="browsers">
-    <option value="Internet Explorer">
-    <option value="Firefox">
-    <option value="Chrome">
-    <option value="Opera">
-    <option value="Safari">
-  </datalist>
-  <input type="submit">
+  <label for="fname">First name: </label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name: </label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
 </form>
 
-<p><b>Note:</b> The datalist tag is not supported in Safari prior version 12.1.</p>
+<p><b>Note:</b> The input type="image" sends the X and Y coordinates of the click that activated the image button.</p>
 
 </body>
 </html>
 
-The <output> Element
-    <!DOCTYPE html>
+Input Type Tel
+<!DOCTYPE html>
 <html>
 <body>
 
-<h2>The output Element</h2>
-<p>Dao Trong Hieu 2021050258.</p>
+<h2>Dao Trong Hieu 2021050258</h2>
 
-<form action="/action_page.php"
-oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-  0
-  <input type="range" id="a" name="a" value="50">
-  100 +
-  <input type="number" id="b" name="b" value="50">
-  =
-  <output name="x" for="a b"></output>
-  <br><br>
-  <input type="submit">
+<p>The <strong>input type="tel"</strong> is used for input fields that should contain a telephone number:</p>
+
+<form action="/action_page.php">
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+  <small>Format: 123-45-678</small><br><br>
+  <input type="submit" value="Submit">
 </form>
-
-<p><strong>Note:</strong> The output element is not supported in Edge prior version 13.</p>
 
 </body>
 </html>
 
+Input Type Time 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Dao Trong Hieu 2021050258</h1>
+
+<p>The <strong>input type="time"</strong> allows the user to select a time (no time zone):</p>
+
+<p>If the browser supports it, a time picker pops up when entering the input field.</p>
+
+<form action="/action_page.php">
+  <label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="time" is not supported in Internet Explorer 11 or prior Safari 14.1.</p>
+
+</body>
+</html>
+
+Input Type Week
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Dao Trong Hieu 2021050258</h1>
+
+<p>The <strong>input type="week"</strong> allows the user to select a week and year.</p>
+
+<p>If the browser supports it, a date picker pops up when entering the input field.</p>
+
+<form action="/action_page.php">
+  <label for="week">Select a week:</label>
+  <input type="week" id="week" name="week">
+  <input type="submit" value="Submit">
+</form>
+
+<p><strong>Note:</strong> type="week" is not supported in Firefox, Safari or Internet Explorer 11.</p>
+
+</body>
+</html>
