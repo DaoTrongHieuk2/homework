@@ -1,42 +1,133 @@
+Canvas Examples
 <!DOCTYPE html>
 <html>
 <body>
 
-<h1>Dao Trong Hieu 2021020258</h1>
-
-<p>The form attribute specifies the form an input element belongs to.</p>
-
-<form action="/action_page.php" id="form1">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <input type="submit" value="Submit">
-</form>
-
-<p>The "Last name" field below is outside the form element, but still part of the form.</p>
-
-<label for="lname">Last name:</label>
-<input type="text" id="lname" name="lname" form="form1">
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+Dao Trong Hieu 2021050258
+</canvas>
 
 </body>
 </html>
 
-The formaction Attribute
+Add a JavaScript
 <!DOCTYPE html>
 <html>
 <body>
 
-<h1>Dao Trong Hieu 2021050258</h1>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Dao Trong Hieu 2021050258.</canvas>
 
-<p>The formaction attribute specifies the URL of a file that will process the input when the form is submitted.</p>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();
+</script>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
-  <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
-</form>
+</body>
+</html>
+
+Draw a Circle   
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Dao Trong Hieu 2021050258.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+</script> 
+
+</body>
+</html>
+
+Draw a Text
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Dao Trong Hieu 2021050258</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Hello World",10,50);
+</script>
+
+</body>
+</html>
+
+Stroke Text
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Dao Trong Hieu 2021050258.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World",10,50);
+</script>
+
+</body>
+</html>
+
+Draw Linear Gradient
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Dao Trong Hieu 2021050258</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+// Create gradient
+var grd = ctx.createLinearGradient(0,0,200,0);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script>
+
+</body>
+</html>
+
+Draw Circular Gradient
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Dao Trong Hieu 2021050258.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+// Create gradient
+var grd = ctx.createRadialGradient(75,50,5,90,60,100);
+grd.addColorStop(0,"red");
+grd.addColorStop(1,"white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10,10,150,80);
+</script>
 
 </body>
 </html>
