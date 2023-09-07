@@ -1,0 +1,14 @@
+E:\PTPMQL\C#\BThangso\obj\Debug\net7.0\BThangso.GeneratedMSBuildEditorConfig.editorconfig
+E:\PTPMQL\C#\BThangso\obj\Debug\net7.0\BThangso.AssemblyInfoInputs.cache
+E:\PTPMQL\C#\BThangso\obj\Debug\net7.0\BThangso.AssemblyInfo.cs
+E:\PTPMQL\C#\BThangso\obj\Debug\net7.0\BThangso.csproj.CoreCompileInputs.cache
+E:\PTPMQL\C#\BThangso\bin\Debug\net7.0\BThangso.exe
+E:\PTPMQL\C#\BThangso\bin\Debug\net7.0\BThangso.deps.json
+E:\PTPMQL\C#\BThangso\bin\Debug\net7.0\BThangso.runtimeconfig.json
+E:\PTPMQL\C#\BThangso\bin\Debug\net7.0\BThangso.dll
+E:\PTPMQL\C#\BThangso\bin\Debug\net7.0\BThangso.pdb
+E:\PTPMQL\C#\BThangso\obj\Debug\net7.0\BThangso.dll
+E:\PTPMQL\C#\BThangso\obj\Debug\net7.0\refint\BThangso.dll
+E:\PTPMQL\C#\BThangso\obj\Debug\net7.0\BThangso.pdb
+E:\PTPMQL\C#\BThangso\obj\Debug\net7.0\BThangso.genruntimeconfig.cache
+E:\PTPMQL\C#\BThangso\obj\Debug\net7.0\ref\BThangso.dll
