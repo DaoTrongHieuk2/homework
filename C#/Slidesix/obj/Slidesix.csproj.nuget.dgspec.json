@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PTPMQL\\C#\\BTgiaiphuongtrinh\\BTgiaiphuongtrinh.csproj": {}
+    "E:\\PTPMQL\\C#\\Slidesix\\Slidesix.csproj": {}
   },
   "projects": {
-    "E:\\PTPMQL\\C#\\BTgiaiphuongtrinh\\BTgiaiphuongtrinh.csproj": {
+    "E:\\PTPMQL\\C#\\Slidesix\\Slidesix.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PTPMQL\\C#\\BTgiaiphuongtrinh\\BTgiaiphuongtrinh.csproj",
-        "projectName": "BTgiaiphuongtrinh",
-        "projectPath": "E:\\PTPMQL\\C#\\BTgiaiphuongtrinh\\BTgiaiphuongtrinh.csproj",
+        "projectUniqueName": "E:\\PTPMQL\\C#\\Slidesix\\Slidesix.csproj",
+        "projectName": "Slidesix",
+        "projectPath": "E:\\PTPMQL\\C#\\Slidesix\\Slidesix.csproj",
         "packagesPath": "C:\\Users\\hieub\\.nuget\\packages\\",
-        "outputPath": "E:\\PTPMQL\\C#\\BTgiaiphuongtrinh\\obj\\",
+        "outputPath": "E:\\PTPMQL\\C#\\Slidesix\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hieub\\AppData\\Roaming\\NuGet\\NuGet.Config"
