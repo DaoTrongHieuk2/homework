@@ -22,15 +22,5 @@ namespace Slidesix.Models
         {
             System.Console.WriteLine(FullName + "-" + Address + "-" + Age + "tuoi");
         }
-        public void Display2(string ten, int tuoi)
-        {
-            System.Console.WriteLine(ten + "-" + tuoi);
-        }
-
-        public int GetYearOfBirth(int age)
-        {
-            int yearOfBirth = 2023 - age;
-            return yearOfBirth;
-        }
     }
 }
