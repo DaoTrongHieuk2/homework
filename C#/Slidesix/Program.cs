@@ -29,39 +29,62 @@ public class Program
 
 
 
-        /*  //chay code Employee
-         Employee emp = new Employee();
-         emp.NhapThongTin();
-         emp.HienThiThongTin();
-         string str = "Dao Trong Hieu";
-         int a = 21;
-         emp.Display3(str, a);
-         System.Console.WriteLine(str, emp.GetYearOfBirth(a)); */
+        //chay code Employee
+        /*  Employee emp = new Employee();
+         try
+         {
+             emp.NhapThongTin();
+             emp.HienThiThongTin();
+         }
+         catch
+         {
+             System.Console.WriteLine("Nhap sai du lieu");
+         } */
+
+        /* string str = "Dao Trong Hieu";
+        int a = 21;
+        emp.Display3(str, a);
+        System.Console.WriteLine(str, emp.GetYearOfBirth(a)); */
 
 
 
 
-        /*  //chay code Fruit
-         Fruit fr = new Fruit();
-         fr.NhapThongTin();
-         fr.HienThiThongTin();
-         string str1 = "Qua na";
-         int a1 = 5;
-         fr.Display4(str1, a1);
-         System.Console.WriteLine(str, fr.GetOfQuantity(a));
+        //chay code Fruit
+        /* Fruit fr = new Fruit();
+        try
+        {
+            fr.NhapThongTin();
+            fr.HienThiThongTin();
+        }
+        catch
+        {
+            System.Console.WriteLine("Nhap sai du lieu");
+        } */
+        /* string str1 = "Qua na";
+        int a1 = 5;
+        fr.Display4(str1, a1);
+        System.Console.WriteLine(str, fr.GetOfQuantity(a));  */
 
 
 
 
 
-         //chaycodeStudentBT
-         StudentBT bt = new StudentBT();
-         bt.EnterData();
-         bt.Display();
-         string st = "Dao Trong Hieu";
-         int aa = 21;
-         bt.Display5(st, aa);
-         System.Console.WriteLine(str, bt.GetYearOfBirth(a)); */
+        //chaycodeStudentBT
+        /* StudentBT bt = new StudentBT();
+
+        try
+        {
+            bt.EnterData();
+            bt.Display();
+        }
+        catch
+        {
+            System.Console.WriteLine("Nhap sai du lieu");
+        } */
+        /* string st = "Dao Trong Hieu";
+        int aa = 21;
+        bt.Display5(st, aa);
+        System.Console.WriteLine(str, bt.GetYearOfBirth(a)); */
 
 
         /* //BT kế thừa Employee từ Person
@@ -70,10 +93,10 @@ public class Program
         kt.HienThiThongTin(); */
 
 
-        //BT kế thừa xây dựng class kế thừa từ class Fruit
-        FruitKT ft = new FruitKT();
-        ft.NhapThongTinKT();
-        ft.HienThiThongTinKT();
+        /*  //BT kế thừa xây dựng class kế thừa từ class Fruit
+         FruitKT ft = new FruitKT();
+         ft.NhapThongTinKT();
+         ft.HienThiThongTinKT(); */
 
     }
 }
