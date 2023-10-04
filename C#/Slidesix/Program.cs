@@ -8,13 +8,13 @@ public class Program
 
     private static void Main(string[] args)
     {
-        StudentBT[] stdArray = new StudentBT[2];
+        Fruit[] stdArray = new Fruit[2];
         // Nhap thong tin
         for (int i = 0; i < stdArray.Length; i++)
         {
             System.Console.WriteLine("Nhap phan tu thu " + i);
-            StudentBT std = new StudentBT();
-            std.EnterData();
+            Fruit std = new Fruit();
+            std.NhapThongTin();
             stdArray[i] = std;
         }
         // Hien thi thong tin
@@ -22,22 +22,36 @@ public class Program
         {
             System.Console.Write(stdArray[i] + "\t");
         }
-        foreach (StudentBT std in stdArray)
+        foreach (Fruit std in stdArray)
         {
-            string ID = std.StudentID;
-            string Name = std.StudentName;
-            int Age = std.Age;
+            string ID = std.FruitID;
+            string Name = std.FruitName;
+            int Age = std.FruitQuantity;
+
             System.Console.WriteLine(ID + Name + Age);
         }
 
 
-        /* //Them thong tin 
-        StudentBT newStudent = new StudentBT();
-        AddNewStudent(ref stdArray, );
- */
 
 
 
+        /* //BT ArrayList
+        ArrayList StudentList = new ArrayList();
+        System.Console.WriteLine("Nhap so luong sinh vien muon them: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+        for (int i = 0; i < n; i++)
+        {
+            System.Console.WriteLine("\n Sinh vien thu: " + (i + 1));
+            StudentBT std = new StudentBT();
+            std.EnterData();
+            StudentList.Add(std);
+        }
+        System.Console.WriteLine($"\n Thong tin cac sinh vien trong danh sach:");
+        foreach (StudentBT std in StudentList)
+        {
+
+            System.Console.WriteLine($"ID: {std.StudentID}, Name: {std.StudentName}, Tuoi: {std.Age}");
+        } */
     }
 
 
