@@ -9,13 +9,6 @@ namespace Slidesix.Models
         public string? StudentName { get; set; }
         public int Age { get; set; }
 
-        public StudentBT()
-        {
-            StudentID = "2021050258";
-            StudentName = "hieu";
-            Age = 21;
-        }
-
         public void EnterData()
         {
             Console.WriteLine("StudentID: ");
@@ -29,14 +22,6 @@ namespace Slidesix.Models
         {
             System.Console.WriteLine(StudentID + "-" + StudentName + "-" + Age + "tuoi");
         }
-        public void Display5(string ten, int tuoi)
-        {
-            System.Console.WriteLine(ten + "-" + tuoi);
-        }
-        public int GetYearOfBirth(int age)
-        {
-            int yearOfBirth = 2023 - age;
-            return yearOfBirth;
-        }
+
     }
 }
