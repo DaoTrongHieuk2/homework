@@ -8,12 +8,12 @@ public class Program
 
     private static void Main(string[] args)
     {
-        Fruit[] stdArray = new Fruit[2];
+        Employee[] stdArray = new Employee[2];
         // Nhap thong tin
         for (int i = 0; i < stdArray.Length; i++)
         {
             System.Console.WriteLine("Nhap phan tu thu " + i);
-            Fruit std = new Fruit();
+            Employee std = new Employee();
             std.NhapThongTin();
             stdArray[i] = std;
         }
@@ -22,13 +22,13 @@ public class Program
         {
             System.Console.Write(stdArray[i] + "\t");
         }
-        foreach (Fruit std in stdArray)
+        foreach (Employee std in stdArray)
         {
-            string ID = std.FruitID;
-            string Name = std.FruitName;
-            int Age = std.FruitQuantity;
-
-            System.Console.WriteLine(ID + Name + Age);
+            string ID = std.Manhanvien;
+            string Name = std.Tennhanvien;
+            int Age = std.Tuoi;
+            int Luong = std.Luong;
+            System.Console.WriteLine(ID + Name + Age + Luong);
         }
 
 
