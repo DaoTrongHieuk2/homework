@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h2>Nhap he so giai phuong trinh bac 2:</h2>
+    @model GiaiPTBac2
+    <form asp-action="IndexPTBacHai">
+        He so a: <input type="text" name="a" placeholder="a" /><br>
+        He so b: <input type="text" name="b" placeholder="b" /><br>
+        He so c: <input type="text" name="c" placeholder="c" /><br>
+        <input type="submit" name="Tinh" value="Tinh" />
+    </form>
+    @* <h1>@ViewBag.thongbao</h1> *@
+    @if (ViewData["Result"] != null)
+    {
+        <div>
+            <p>@ViewData["Result"]</p>
+        </div>
+    }
+</body>
+
+</html>
