@@ -8,11 +8,26 @@
 <body>
     <h2>Nhap he so giai phuong trinh bac 2:</h2>
     @model GiaiPTBac2
-    <form asp-action="IndexPTBacHai">
-        He so a: <input type="text" name="a" placeholder="a" /><br>
-        He so b: <input type="text" name="b" placeholder="b" /><br>
-        He so c: <input type="text" name="c" placeholder="c" /><br>
-        <input type="submit" name="Tinh" value="Tinh" />
+    @* <form asp-action="IndexPTBacHai">
+    He so a: <input type="text" name="a" placeholder="a" /><br>
+    He so b: <input type="text" name="b" placeholder="b" /><br>
+    He so c: <input type="text" name="c" placeholder="c" /><br>
+    <input type="submit" name="Tinh" value="Tinh" />
+    </form> *@
+    <form asp-action="IndexPTBacHai" class="w3-card">
+        <p>
+            <label> He so a:</label>
+            <input class="w3-input w3-border-blue " type="text" name="a" placeholder="a">
+        </p>
+        <p>
+            <label> He so b:</label>
+            <input class="w3-input w3-border-blue " type="text" name="b" placeholder="b">
+        </p>
+        <p>
+            <label> He so c:</label>
+            <input class="w3-input w3-border-blue " type="text" name="c" placeholder="c">
+        </p>
+        <input class="w3-boder w3-center w3-red w3-padding" type="submit" name="Tinh" value="Tinh" /><br>
     </form>
     @* <h1>@ViewBag.thongbao</h1> *@
     @if (ViewData["Result"] != null)
