@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[e:/PTPMQL/DemoMVC/Views/Person/IndexPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4UGVyc29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [e:/PTPMQL/DemoMVC/Views/PTBacHai/IndexPTBacHai.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUFRCYWNIYWlcSW5kZXhQVEJhY0hhaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

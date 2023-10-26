@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h2>Nhap thong tin:</h2>
+    <form asp-action="IndexPerson" class="w3-card">
+        <p>
+            <label> PersonID</label>
+            <input class="w3-input w3-border-blue " type="text" name="PersonID">
+        </p>
+        <p>
+            <label> FullName:</label>
+            <input class="w3-input w3-border-blue " type="text" name="FullName">
+        </p>
+        <input class="w3-boder w3-center w3-red w3-padding" type="submit" name="Nhap" value="Nhap" /><br>
+    </form>
+    <h1>@ViewBag.thongbao</h1>
+</body>
+
+</html>
