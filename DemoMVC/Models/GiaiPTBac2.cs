@@ -8,3 +8,4 @@ public class GiaiPTBac2
     public double x2 { get; set; }
 
 }
+//Đào Trọng Hiếu 2021050258
