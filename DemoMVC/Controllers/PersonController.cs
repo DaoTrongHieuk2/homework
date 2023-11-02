@@ -25,7 +25,7 @@ public class PersonController : Controller
     }
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Creat([Bind("PersonId,FullName,Address")] Person person)
+    public async Task<IActionResult> Create([Bind("PersonId,FullName,Address")] Person person)
     {
         if (ModelState.IsValid)
         {
