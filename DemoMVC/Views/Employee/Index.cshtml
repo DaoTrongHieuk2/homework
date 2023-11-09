@@ -1,0 +1,62 @@
+@model IEnumerable<DemoMVC.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+    <h1>Index</h1>
+
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table ">
+        <thead>
+            <tr>
+                <th class="w3-container w3-orange">
+                    @Html.DisplayNameFor(model => model.EmployeeId)
+                </th>
+                <th class="w3-container w3-orange">
+                    @Html.DisplayNameFor(model => model.Age)
+                </th class="w3-container w3-orange">
+                <th class="w3-container w3-orange">
+                    @Html.DisplayNameFor(model => model.FullName)
+                </th>
+                <th class="w3-container w3-orange">
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class=" w3-border">
+                        @Html.DisplayFor(modelItem => item.EmployeeId)
+                    </td>
+                    <td class=" w3-border">
+                        @Html.DisplayFor(modelItem => item.Age)
+                    </td>
+                    <td class=" w3-border">
+                        @Html.DisplayFor(modelItem => item.FullName)
+                    </td>
+                    <td class=" w3-border">
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.PersonId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.PersonId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.PersonId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+
+</html>

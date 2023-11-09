@@ -7,5 +7,6 @@ namespace DemoMVC.Data
         public ApplicationDbcontext(DbContextOptions<ApplicationDbcontext> options) : base(options)
         { }
         public DbSet<Person> Person { get; set; }
+        public DbSet<DemoMVC.Models.Employee> Employee { get; set; } = default!;
     }
 }

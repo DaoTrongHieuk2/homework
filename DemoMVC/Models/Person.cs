@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 namespace DemoMVC.Models
 {
-    [Table("Persons")]
+    [Table("Person")]
     public class Person
     {
         //2021050258-Dao Trong Hieu//
