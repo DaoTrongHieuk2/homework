@@ -8,5 +8,7 @@ namespace DemoMVC.Data
         { }
         public DbSet<Person> Person { get; set; }
         public DbSet<DemoMVC.Models.Employee> Employee { get; set; } = default!;
+        public DbSet<DaiLy> DaiLy { get; set; }
+        public DbSet<HeThongPhanPhoi> HeThongPhanPhoi { get; set; }
     }
 }
