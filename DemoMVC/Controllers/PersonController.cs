@@ -23,6 +23,7 @@ public class PersonController : Controller
     {
         return View();
     }
+
     [HttpPost]
     [ValidateAntiForgeryToken]
     public async Task<IActionResult> Create([Bind("PersonId,FullName,Address,Age")] Person person)
@@ -113,6 +114,20 @@ public class PersonController : Controller
         return (_context.Person?.Any(e => e.PersonId == id)).GetValueOrDefault();
     }
 
+
+    /*  public async Task<IActionResult> Upload()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+    public async Task<IActionResult>Upload(IFormFile file)
+    {
+        if (file!=null)
+        {
+
+        }
+    } */
 
 }
 
